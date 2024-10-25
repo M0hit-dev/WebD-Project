@@ -1,16 +1,17 @@
 body {
     background-color: aliceblue;
+    margin: 0;
 }
 
 .topbar {
-    border:solid 2px rebeccapurple;
     background-color: aquamarine;
     padding:1%;
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
     text-align: center;
     box-shadow: 2px 2px 5px black;
-    margin: 1%;
+    width:100;
+    
 }
 
 input {
@@ -24,7 +25,6 @@ input {
     text-align: right;
 }
 
-img {
-    border: solid 1px silver;
-    border-radius: 50%;
+#headerimg {
+    width: 100%;
 }
