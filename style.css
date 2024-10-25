@@ -1,20 +1,25 @@
 .topbar {
     border:solid 2px rebeccapurple;
-    border-radius: 10px;
     padding:1%;
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
     text-align: center;
+    box-shadow: 2px 2px 5px black;
+    margin: 1%;
 }
 
 input {
     border: solid 1px gray;
     background-color: rgb(118, 209, 118);
-    border-radius: 10px;
     padding: 1%;
     margin: 5px;
 }
 
 .about {
     text-align: right;
+}
+
+img {
+    border: solid 1px silver;
+    border-radius: 50%;
 }
