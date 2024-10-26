@@ -3,15 +3,22 @@ body {
     margin: 0;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
 .topbar {
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     padding:1%;
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
     text-align: center;
     box-shadow: 2px 2px 5px black;
     width:100;
-    
+    a:hover {
+        background-color: rgb(105, 57, 57);
+    }
 }
 
 input {
@@ -27,4 +34,9 @@ input {
 
 #headerimg {
     width: 100%;
+}
+
+footer {
+    background-color: brown;
+    padding: 10px 50px 50px 10px;
 }
